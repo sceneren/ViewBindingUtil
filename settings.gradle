@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ViewBindingUtil"
 include ':app'
-include ':ViewBindingUtil'
+include ':ViewBindingUtils'
