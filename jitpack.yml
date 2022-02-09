@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew :ViewBindingUtil:build :ViewBindingUtil:publishToMavenLocal
+  - find . -name "*.aar"
