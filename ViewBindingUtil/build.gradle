@@ -28,10 +28,12 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-common:2.4.0'
     implementation 'androidx.fragment:fragment-ktx:1.4.1'
 }
+
 task androidSourcesJar(type: Jar) {
     classifier 'sources'
     from android.sourceSets.main.java.srcDirs
 }
+
 project.afterEvaluate {
     publishing {
         publications {
